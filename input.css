@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+
+/**
+ * Problematic CSS that cancels custom colors to generate only for background?
+ */
+.page-test.bg-green a{
+    @apply text-green-light;
+}
+
+@tailwind utilities;
